@@ -1,0 +1,38 @@
+Package: mmtp
+Type: Package
+Title: Nonparametric Causal Mediation Using Modified Treatment Policies
+Version: 0.1.0
+Authors@R: 
+    c(person(given = "Nicholas",
+             family = "Williams",
+             role = c("aut", "cre", "cph"),
+             email = "ntwilliams.personal@gmail.com", 
+             comment = c(ORCID = "0000-0002-1378-4831")),
+      person(given = "Iván", 
+             family = "Díaz", 
+             email = "ivan.diaz@nyulangone.org",
+             role = c("aut", "cph"),
+             comment = c(ORCID = "0000-0001-9056-2047")))
+Maintainer: Nick Williams <ntwilliams.personal@gmail.com>
+Description: Nonparametric causal mediation using modified treatment policies.
+License: GPL (>= 3)
+Encoding: UTF-8
+LazyData: true
+Imports: 
+    checkmate,
+    data.table,
+    glue,
+    mlr3superlearner (>= 0.1.3),
+    origami,
+    R6,
+    slider
+URL: https://github.com/nt-williams/lcmmtp
+BugReports: https://github.com/nt-williams/lcmmtp/issues
+RoxygenNote: 7.2.3
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+Depends: 
+    R (>= 2.10)
+Remotes: 
+    nt-williams/mlr3superlearner
