@@ -6,8 +6,8 @@
 #' @export
 #'
 #' @examples
-#' .lcmmtp_control(folds = 5, learners_trt = c("glm", "earth"))
-.lcmmtp_control <- function(...) {
+#' .mmtp_control(folds = 5, learners_trt = c("glm", "earth"))
+.mmtp_control <- function(...) {
     change <- list(...)
     params <- list(folds = 10L,
                    folds_trt = 10L,

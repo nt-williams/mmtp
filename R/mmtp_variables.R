@@ -35,7 +35,7 @@ mmtp_variables <- R6::R6Class(
 
             invisible(self)
         },
-        #' Get all parent nodes for a variable
+        # Get all parent nodes for a variable
         history = function(var = c("A", "Z", "M", "Y")) {
             switch(
                 match.arg(var),
